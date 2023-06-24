@@ -1,0 +1,15 @@
+.experiences {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.experiences .time {
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-solid.fa-calendar-days {
+    margin-right: .5rem;
+}
