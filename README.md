@@ -1,7 +1,8 @@
-# Meu-Curriculo-Web
+# React + Vite
 
-Meu currículo em formato Web contendo todas as minhas informações e experiências.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-
-![Print do meu Curriculo Web](https://github.com/DevHenriquecido/Meu-Curriculo-Web/assets/108635477/1fc6902c-8406-4bd8-bebc-17100b9ec441)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
