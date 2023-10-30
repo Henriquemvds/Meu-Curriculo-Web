@@ -79,9 +79,34 @@ acordeonTriggers.forEach((trigger) => {
             </li>
         </ul>
     </section>
-    </div>
-    </div>
+    <section class="personal">
+    <h3>Habilidades Pessoais: </h3>
+    <ul>
+        <li>
+            Responsável;
+        </li>
+        <li>
+            Educado;
+        </li>
+        <li>
+            Esforçado;
+        </li>
+        <li>
+            Comprometido;
+        </li>
+        <li>
+            Empático;
+        </li>
+        <li>
+            Observador;
+        </li>
+    </ul>
 </section>
+    </div>
+    </div>
+    
+</section>
+
       </section>  
     )
 }
