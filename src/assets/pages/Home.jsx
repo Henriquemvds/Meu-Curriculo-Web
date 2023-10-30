@@ -1,15 +1,9 @@
 import Perfil from '../images/1667876017269.jpg'
+import LogoJavascript from '../images/javascript-logo-transparent-logo-javascript-images-3.png'
+import LogoReact from '../images/png-transparent-react-native-hd-logo.png'
 import '../pages/Home.css'
 
 function Home() {
-
-
-
-
-
-
-
-    
 
 
     return (
@@ -44,10 +38,35 @@ function Home() {
                 <span>  henriquem.vdossantos@gmail.com (envie uma e-mail aqui) </span>
             </a>
                 
-           
         </div>
         </div>
         </header>
+
+        <section class="acordeon open">
+    
+    <button class="trigger" type="button">
+    Skills 
+    <i class="fa-solid fa-chevron-down"></i>
+</button>
+
+<div class="content">
+<div class="skills">
+
+    <section class="tools">
+
+        <h3>Habilidades Profissionais: </h3>
+        <ul>
+            <li>
+                <img src={LogoJavascript} alt="javascript" title="javascript"/>
+            </li>
+            <li>
+                <img src={LogoReact} alt="react" title="react"/>
+            </li>
+        </ul>
+    </section>
+    </div>
+    </div>
+</section>
       </section>  
     )
 }
