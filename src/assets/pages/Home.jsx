@@ -3,12 +3,14 @@ import LogoJavascript from '../images/javascript-logo-transparent-logo-javascrip
 import LogoReact from '../images/png-transparent-react-native-hd-logo.png'
 import { useState } from 'react'
 import '../pages/Home.css'
+import { useEffect } from 'react'
 
 function Home() {
 
-
-    const getDetails = () => {
+   
+    useEffect(() => {
         const acordeonTriggers = document.querySelectorAll('.acordeon .trigger')
+        
         acordeonTriggers.forEach((trigger) => {
             trigger.addEventListener('click', (e) => {
                const acordeon = trigger.parentElement
@@ -21,7 +23,8 @@ function Home() {
                 }
             })
         })
-    }
+
+    }, [])
 
 
 
@@ -61,7 +64,7 @@ function Home() {
         </div>
         </header>
 
-        <section className="acordeon open" onClick={getDetails}>
+        <section className="acordeon open">
     
     <button className="trigger" type="button">
     Skills 
@@ -113,7 +116,7 @@ function Home() {
 </section>
 
 
-<section className="acordeon open" onClick={getDetails}>
+<section className="acordeon open">
     
         <button className="trigger" type="button">
     Idiomas 
@@ -136,7 +139,7 @@ function Home() {
 
 </section>
 
-<section className="acordeon open" onClick={getDetails}>
+<section className="acordeon open">
 
     <button className="trigger" type="button">
         Portfólio 
@@ -165,7 +168,7 @@ function Home() {
 </div>
 </section>
 
-<section className="acordeon open" onClick={getDetails}>
+<section className="acordeon open">
     
 <button className="trigger" type="button">
     Experiência profissional 
