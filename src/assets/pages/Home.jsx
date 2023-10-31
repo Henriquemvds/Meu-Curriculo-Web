@@ -7,7 +7,13 @@ import { useEffect } from 'react'
 
 function Home() {
 
-   
+    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5722Z9TNPM');
+
+
     useEffect(() => {
         const acordeonTriggers = document.querySelectorAll('.acordeon .trigger')
         
