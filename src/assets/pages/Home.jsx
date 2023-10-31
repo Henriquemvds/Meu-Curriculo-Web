@@ -130,6 +130,35 @@ acordeonTriggers.forEach((trigger) => {
 </div>
 
 </section>
+
+<section className="acordeon open">
+
+    <button className="trigger" type="button">
+        Portfólio 
+        <i className="fa-solid fa-chevron-down"></i>
+    </button>
+
+<div className="content">
+   <ul className="portfolio">
+       <li>
+    <h3 className="title"> 
+    <i className="fa-brands fa-github"></i>
+        Meu currículo em formato app.
+    </h3>
+        <a href="https://github.com/DevHenriquecido/Meu_Curriculo_app.git">Meu_Curriculo_app.git</a>
+    </li>
+    <li>
+    <h3 className="title">  
+    <i className="fa-brands fa-github"></i>
+    Lista de pokemons sincronizada com API com responsividade mobile.
+    </h3>
+        <a href="https://github.com/DevHenriquecido/pokedex.git">pokedex.git</a>
+    </li>
+
+
+   </ul>
+</div>
+</section>
       </section>  
     )
 }
