@@ -57,17 +57,17 @@ acordeonTriggers.forEach((trigger) => {
         </div>
         </header>
 
-        <section class="acordeon open">
+        <section className="acordeon open">
     
-    <button class="trigger" type="button">
+    <button className="trigger" type="button">
     Skills 
-    <i class="fa-solid fa-chevron-down"></i>
+    <i className="fa-solid fa-chevron-down"></i>
 </button>
 
-<div class="content">
-<div class="skills">
+<div className="content">
+<div className="skills">
 
-    <section class="tools">
+    <section className="tools">
 
         <h3>Habilidades Profissionais: </h3>
         <ul>
@@ -79,7 +79,8 @@ acordeonTriggers.forEach((trigger) => {
             </li>
         </ul>
     </section>
-    <section class="personal">
+    </div>
+    <section className="personal">
     <h3>Habilidades Pessoais: </h3>
     <ul>
         <li>
@@ -103,10 +104,32 @@ acordeonTriggers.forEach((trigger) => {
     </ul>
 </section>
     </div>
-    </div>
     
 </section>
 
+
+<section className="acordeon open">
+    
+        <button className="trigger" type="button">
+    Idiomas 
+    <i className="fa-solid fa-chevron-down"></i>
+</button>
+
+<div className="content">
+<ul className="languages">
+    <li>
+    <i className="fa-solid fa-check"></i>
+        Português (BR)
+    </li>
+
+    <li>
+    <i className="fa-solid fa-check"></i>
+    Inglês (básico)
+    </li>
+</ul>
+</div>
+
+</section>
       </section>  
     )
 }

@@ -33,7 +33,7 @@
  
 }
 
-.fa-solid.fa-user, .fa-solid.fa-location-dot, .fa-solid.fa-phone, .fa-solid.fa-envelope{
+.fa-solid.fa-user, .fa-solid.fa-location-dot, .fa-solid.fa-phone, .fa-solid.fa-envelope, .fa-solid.fa-check{
 margin-right: .5rem;
 }
 
@@ -71,6 +71,21 @@ margin-right: .5rem;
 .skills .personal ul li {
     margin-left: 2rem;
     padding: .5rem;
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 700;
+}
+
+.languages li {
+    padding: 1rem;
 }
 
 
