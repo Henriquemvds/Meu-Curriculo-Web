@@ -159,6 +159,80 @@ acordeonTriggers.forEach((trigger) => {
    </ul>
 </div>
 </section>
+
+<section className="acordeon open">
+    
+<button className="trigger" type="button">
+    Experiência profissional 
+<i className="fa-solid fa-chevron-down"></i>
+</button>
+
+<div className="content">
+<ul className="experiences">
+        <h3 className="title">Jovem Aprendiz (Auxiliar Administrativo de Departamento de Pessoal) - Lojas Koerich </h3>
+        <span className="time"> <i className="fa-solid fa-calendar-days"></i> 
+           03/2018 - 07/2019
+        </span>
+        <p>
+            <li>
+                Arquivamento;  
+            </li>
+            <li>
+                Envio e descarte de cartões e uniformes; 
+            </li> 
+            <li>
+                Lançamento de Notas;
+            </li>
+            <li>
+                Entrega, recibos e separação de documentos. 
+            </li>
+            
+        </p>
+    
+   
+        <h3 className="title">Jovem Aprendiz (Auxiliar Administrativo de Recursos Humanos) - Albertoni Transportes</h3>
+        <span className="time"> <i className="fa-solid fa-calendar-days"></i> 
+           03/2018 - 07/2019
+        </span>
+        <p>
+            <li>    
+                Arquivamento;
+            </li>
+            <li>
+                Conferência de Notas;
+            </li>
+            <li>
+                Escaneamento de documentos; 
+            </li>
+            <li>
+                Entrega, recibos e separação de documentos.
+            </li>
+        </p>
+   
+    
+        <h3 className="title">Auxiliar de produção (linha inversores) - Ageon Electronic Controls</h3>
+        <span className="time"> <i className="fa-solid fa-calendar-days"></i> 
+           10/2021 - Atual
+        </span>
+        <p>
+            <li>
+                Montagem de placas;
+        </li>
+            <li>
+                Testes de funcionamentos básicos;
+            </li>
+            <li>
+                Etiquetação.
+            </li>
+            
+        </p>
+ 
+
+</ul>
+</div>
+
+
+</section>
       </section>  
     )
 }
