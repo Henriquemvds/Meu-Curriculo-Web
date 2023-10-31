@@ -33,7 +33,8 @@
  
 }
 
-.fa-solid.fa-user, .fa-solid.fa-location-dot, .fa-solid.fa-phone, .fa-solid.fa-envelope, .fa-solid.fa-check{
+.fa-solid.fa-user, .fa-solid.fa-location-dot, .fa-solid.fa-phone, 
+.fa-solid.fa-envelope, .fa-solid.fa-check, .fa-solid.fa-calendar-days, .fa-brands.fa-github{
 margin-right: .5rem;
 }
 
@@ -114,9 +115,18 @@ margin-right: .5rem;
     margin-bottom: .5rem;
 }
 
-.fa-brands.fa-github {
-    margin: .5rem;
+.experiences {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+.experiences .time {
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 @media only screen and (min-width: 768px) {
