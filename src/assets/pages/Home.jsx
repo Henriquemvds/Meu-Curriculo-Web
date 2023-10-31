@@ -1,24 +1,28 @@
 import Perfil from '../images/1667876017269.jpg'
 import LogoJavascript from '../images/javascript-logo-transparent-logo-javascript-images-3.png'
 import LogoReact from '../images/png-transparent-react-native-hd-logo.png'
+import { useState } from 'react'
 import '../pages/Home.css'
 
 function Home() {
 
-    const acordeonTriggers = document.querySelectorAll('.acordeon .trigger')
 
-acordeonTriggers.forEach((trigger) => {
-    trigger.addEventListener('click', (e) => {
-       const acordeon = trigger.parentElement
-        const isOpen = acordeon.classList.contains('open')
+    const getDetails = () => {
+        const acordeonTriggers = document.querySelectorAll('.acordeon .trigger')
+        acordeonTriggers.forEach((trigger) => {
+            trigger.addEventListener('click', (e) => {
+               const acordeon = trigger.parentElement
+                const isOpen = acordeon.classList.contains('open')
+        
+                if (isOpen){
+                    acordeon.classList.remove('open')
+                } else {
+                    acordeon.classList.add('open')
+                }
+            })
+        })
+    }
 
-        if (isOpen){
-            acordeon.classList.remove('open')
-        } else {
-            acordeon.classList.add('open')
-        }
-    })
-})
 
 
     return (
@@ -57,7 +61,7 @@ acordeonTriggers.forEach((trigger) => {
         </div>
         </header>
 
-        <section className="acordeon open">
+        <section className="acordeon open" onClick={getDetails}>
     
     <button className="trigger" type="button">
     Skills 
@@ -103,12 +107,13 @@ acordeonTriggers.forEach((trigger) => {
         </li>
     </ul>
 </section>
+
     </div>
     
 </section>
 
 
-<section className="acordeon open">
+<section className="acordeon open" onClick={getDetails}>
     
         <button className="trigger" type="button">
     Idiomas 
@@ -131,7 +136,7 @@ acordeonTriggers.forEach((trigger) => {
 
 </section>
 
-<section className="acordeon open">
+<section className="acordeon open" onClick={getDetails}>
 
     <button className="trigger" type="button">
         Portfólio 
@@ -160,7 +165,7 @@ acordeonTriggers.forEach((trigger) => {
 </div>
 </section>
 
-<section className="acordeon open">
+<section className="acordeon open" onClick={getDetails}>
     
 <button className="trigger" type="button">
     Experiência profissional 
