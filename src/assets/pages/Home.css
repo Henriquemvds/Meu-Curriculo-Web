@@ -30,12 +30,17 @@
 .align {
     display: flex;
     flex-direction: row;
- 
+
 }
 
-.fa-solid.fa-user, .fa-solid.fa-location-dot, .fa-solid.fa-phone, 
-.fa-solid.fa-envelope, .fa-solid.fa-check, .fa-solid.fa-calendar-days, .fa-brands.fa-github{
-margin-right: .5rem;
+.fa-solid.fa-user,
+.fa-solid.fa-location-dot,
+.fa-solid.fa-phone,
+.fa-solid.fa-envelope,
+.fa-solid.fa-check,
+.fa-solid.fa-calendar-days,
+.fa-brands.fa-github {
+    margin-right: .5rem;
 }
 
 .skills {
@@ -54,9 +59,10 @@ margin-right: .5rem;
     padding: 0;
     list-style: none;
 }
-.skills .tools ul li img{
-   max-width: 100px;
-   margin: 0.5rem;
+
+.skills .tools ul li img {
+    max-width: 100px;
+    margin: 0.5rem;
 }
 
 .skills .personal ul {
@@ -122,6 +128,7 @@ margin-right: .5rem;
     padding: 0;
     list-style: none;
 }
+
 .experiences .time {
     display: flex;
     flex-direction: row;
@@ -132,22 +139,25 @@ margin-right: .5rem;
 @media only screen and (min-width: 768px) {
     .header {
         display: grid;
-        grid-template-areas: 
-        "photo title"
-        "photo information";
+        grid-template-areas:
+            "photo title"
+            "photo information";
     }
-    
+
     .header .photo {
         grid-area: photo;
         margin: 0 auto;
     }
+
     .header .title {
         grid-area: title;
         text-align: start;
     }
+
     .header .information {
         grid-area: information;
     }
+
     .skills {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -164,10 +174,12 @@ margin-right: .5rem;
     cursor: pointer;
     transition: .25s;
 }
+
 .acordeon:hover {
     background-color: #55569E;
     border-color: #55569E;
 }
+
 .acordeon .trigger {
     font-size: 1.5rem;
     display: flex;
@@ -181,14 +193,16 @@ margin-right: .5rem;
     border: none;
     font-weight: 700;
 }
- .acordeon.open .fa-solid.fa-chevron-down{
+
+.acordeon.open .fa-solid.fa-chevron-down {
     transform: rotate(-180deg);
     transition: .25s;
 }
 
 .acordeon.open .content {
- display: none;
+    display: none;
 }
+
 .acordeon .content {
     display: block;
     padding: 0 1rem 1rem 2rem;
