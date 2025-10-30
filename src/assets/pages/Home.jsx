@@ -155,7 +155,7 @@ function Home() {
                         <li>
                             <h3 className="title">
                                 <i className="fa-brands fa-github"></i>
-                               Um sistema de venda de carros.
+                                Um sistema de venda de carros.
                             </h3>
                             <a href="https://github.com/Henriquemvds/app-cars-sale.git">app_cars_sale.git</a>
                         </li>
@@ -231,7 +231,7 @@ function Home() {
 
                         <h3 className="title">Auxiliar de produção (linha inversores) - Ageon Electronic Controls</h3>
                         <span className="time"> <i className="fa-solid fa-calendar-days"></i>
-                            10/2021 - Atual
+                            10/2021 - 04/2024
                         </span>
                         <p>
                             <li>
@@ -242,6 +242,31 @@ function Home() {
                             </li>
                             <li>
                                 Etiquetação.
+                            </li>
+                        </p>
+
+                        <h3 className="title">Auxiliar de Ecommerce - Loja Repare Online</h3>
+                        <span className="time"> <i className="fa-solid fa-calendar-days"></i>
+                            04/2024 - Atual
+                        </span>
+                        <p>
+                            <li>
+                                Publicação de produtos em Marketplaces;
+                            </li>
+                            <li>
+                                Precificação de produtos;
+                            </li>
+                            <li>
+                                Edição de imagens;
+                            </li>
+                            <li>
+                                Edição de vídeos;
+                            </li>
+                            <li>
+                                Análise de algoritmo de concorrentes;
+                            </li>
+                            <li>
+                                Edição de layout básico nos sites da empresa;
                             </li>
                         </p>
 
